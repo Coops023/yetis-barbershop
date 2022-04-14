@@ -1,11 +1,14 @@
 .footer{
-    background-color: black;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    color: white;
-   border-top: 10px solid #004b23;
-   
+background-color: black;
+width: 100%;
+color: white;
+border-top: 10px solid #004b23;
+position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+padding: 1rem;
+
 }
 
 .footer ul{
@@ -31,5 +34,5 @@
 
 .icon{
     color: white;
-    
+    font-size: 1.4em;
 }

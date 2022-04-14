@@ -20,23 +20,27 @@ export default function Homepage() {
       </header>
       <section className="home-content">
         <div className="home-about-us">
-          <img src="#" alt="haircut" />
+          <img className="about-img" src="/yetis-about.jpeg" alt="haircut" />
           <h3>About us</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-            quas, alias aspernatur aliquam quis dolore vel aliquid delectus aut
-            tempora architecto consequuntur tenetur non pariatur quaerat,
-            cupiditate modi vitae magnam.
+            Here at yeti's we specialize in all mens styles, from modern to
+            classic, beard trims, hot towel shaves and scalp micro pigmentation
+            (SMP). With the best barbers in the business, a carefully curated
+            playlist and a chill place to hang out and have a beer make for a
+            one-of-kind experience.
           </p>
         </div>
         <div className="home-location">
-          <img src="#" alt="suburb" />
+          <img
+            className="location-img"
+            src="/kangaroo-point.jpg"
+            alt="suburb"
+          />
           <h3>Location</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-            quas, alias aspernatur aliquam quis dolore vel aliquid delectus aut
-            tempora architecto consequuntur tenetur non pariatur quaerat,
-            cupiditate modi vitae magnam.
+            Yeti's is located at 616 Main St, Kangaroo Point QLD. Kangaroo
+            Point, considered one of Brisbane's oldest suburbs, is situated just
+            outside of the city above the Brisbane River.
           </p>
         </div>
       </section>
