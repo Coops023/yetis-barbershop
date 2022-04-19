@@ -1,7 +1,38 @@
 .contact-form{
-    height: 90vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
    font-weight: bold;
-   text-transform: uppercase;
+  
+}
+
+.send-button{
+    width: 10em;
+    padding: 0.5em 3em;
+    margin: 1em auto;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+.success-modal{
+    width: 100%;
+    background-color: green;
+    color: white;
+    border-radius: 0.2em;
+    padding: 0.5em 1em;
+    text-align: center;
+    margin-bottom: 1.3em;
+}
+
+.input{
+    border: none;
+    background-color: #e5e5e5;
+    margin-top: 0.5em;
+}
+
+.contact-form label{
+    margin-top: 1.3em;
 }
