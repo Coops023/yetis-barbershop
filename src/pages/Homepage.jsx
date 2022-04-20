@@ -1,13 +1,14 @@
 import React from "react";
 import BookBtn from "../components/BookBtn";
 import "./Homepage.css";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Homepage() {
   return (
     <div className="homepage">
       <header className="hero">
         <div className="hero-overlay">
-          <img
+          <LazyLoadImage
             className="yeti-banner"
             src="./yeti_banner.png"
             alt="company logo"
@@ -20,7 +21,11 @@ export default function Homepage() {
       </header>
       <section className="home-content">
         <div className="home-about-us">
-          <img className="about-img" src="/yetis-about.jpeg" alt="haircut" />
+          <LazyLoadImage
+            className="about-img"
+            src="/yetis-about.jpeg"
+            alt="haircut"
+          />
           <div>
             <h3>About us</h3>
             <p>
@@ -33,7 +38,7 @@ export default function Homepage() {
           </div>
         </div>
         <div className="home-location">
-          <img
+          <LazyLoadImage
             className="location-img"
             src="/kangaroo-point.jpg"
             alt="suburb"

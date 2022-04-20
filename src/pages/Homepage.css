@@ -48,7 +48,7 @@
 }
 
 .location-img, .about-img{
-    width: 20em;
+    width: 15em;
     filter: grayscale();
 }
 
@@ -88,6 +88,11 @@
 
     .home-about-us p, .home-location p{
         padding: 0 2.5em;
+    }
+    .location-img, .about-img{
+        width: 20em;
+        height: 20em;
+        margin: auto;
     }
    
 }

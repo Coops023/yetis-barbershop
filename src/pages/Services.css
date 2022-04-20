@@ -3,7 +3,7 @@ height: fit-content;
 }
 
 .service-img{
-    width: 20em;
+    width: 15em;
    
 }
 
@@ -25,7 +25,7 @@ height: fit-content;
     }
 
     .service-card p, .service-card h3{
-        padding: 0 5em;
+        padding: 0 3em;
     }
 
     .service-card h3{
@@ -39,6 +39,11 @@ height: fit-content;
         flex-direction: row-reverse;
         margin-top: 6em;
         margin-bottom: 6em;
+    }
+    .service-img{
+        width: 20em;
+       height: 20em;
+       margin: auto;
     }
    
 }

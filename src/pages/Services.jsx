@@ -1,11 +1,16 @@
 import React from "react";
 import "./Services.css";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Services() {
   return (
     <div className="Services">
       <div className="service-card">
-        <img className="service-img" src="/haircut.jpeg" alt="haircut" />
+        <LazyLoadImage
+          className="service-img"
+          src="/haircut.jpeg"
+          alt="haircut"
+        />
         <div>
           <h3>Mens haircuts</h3>
           <p>
@@ -17,7 +22,7 @@ export default function Services() {
         </div>
       </div>
       <div className="service-card">
-        <img className="service-img" src="/shave.jpeg" alt="shave" />
+        <LazyLoadImage className="service-img" src="/shave.jpeg" alt="shave" />
         <div>
           <h3>Beard trims and hot towel shaves</h3>
           <p>
@@ -29,7 +34,11 @@ export default function Services() {
         </div>
       </div>
       <div className="service-card">
-        <img className="service-img" src="/smp.jpeg" alt="hair tattoo" />
+        <LazyLoadImage
+          className="service-img"
+          src="/smp.jpeg"
+          alt="hair tattoo"
+        />
         <div>
           <h3>Scalp micro pigmentation</h3>
           <p>
