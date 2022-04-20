@@ -1,5 +1,11 @@
 .contact{
     height: 100%;
-    margin: 2em;
+    margin: 5em;
     text-align: left;
+}
+
+.contact h3 {
+    color: rgba(0, 75, 35, 0.8);
+    font-weight: bold;
+    text-transform: uppercase;
 }

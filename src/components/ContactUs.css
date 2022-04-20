@@ -15,6 +15,13 @@
     font-weight: bold;
     font-size: 1.3em;
     text-transform: uppercase;
+    border: none;
+    transition: background-color 300ms ease, color 300ms ease;
+}
+
+.send-button:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    
 }
 
 .success-modal{

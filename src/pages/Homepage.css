@@ -48,7 +48,7 @@
 }
 
 .location-img, .about-img{
-    width: 100%;
+    width: 20em;
     filter: grayscale();
 }
 
@@ -71,12 +71,57 @@
     }
   
 }
+
+@media screen and (min-width: 764px) {
+    .hero-overlay{
+        width: 30%;
+    }
+
+    .home-about-us, .home-location{
+       display: flex;
+    }
+
+    .home-location{
+        flex-direction: row-reverse;
+        margin-top: 4em;
+    }
+
+    .home-about-us p, .home-location p{
+        padding: 0 2.5em;
+    }
+   
+}
+
 @media screen and (min-width: 1000px) {
     .hero{
-        background-position-y: -17em;
+        background-position-y: -14em;
     }
 
     .hero-overlay{
         width: 30%;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .hero{
+        background-position-y: -20em;
+        height: 90vh;
+    }
+
+    .hero-overlay{
+        width: 25%;
+    }
+
+    .home-about-us p, .home-location p{
+        padding: 0 8em;
+    }
+
+    .location-img, .about-img{
+        width: 25em;
+       
+    }
+
+    .home-about-us, .home-location{
+        margin: 2em 5em;
     }
 }
